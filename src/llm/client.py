@@ -84,30 +84,15 @@ class LLMPolicy:
 
 
 def key_and_door_script() -> list[str]:
-    """A hand-crafted path that solves the default map without an LLM."""
+    """A verified path that solves the default map without an LLM."""
     return [
         "move_forward",
         "move_forward",
         "move_forward",
         "pick_up",
-        "turn_left",
         "move_forward",
         "move_forward",
         "turn_right",
-        "move_forward",
-        "move_forward",
-        "move_forward",
-        "turn_right",
-        "move_forward",
-        "move_forward",
-        "turn_left",
-        "move_forward",
-        "move_forward",
-        "move_forward",
-        "turn_right",
-        "move_forward",
-        "move_forward",
-        "turn_left",
         "move_forward",
         "move_forward",
         "move_forward",

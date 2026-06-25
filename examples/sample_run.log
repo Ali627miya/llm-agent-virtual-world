@@ -1,0 +1,20 @@
+LLM Agent in a Virtual World — Sample Run (scripted mode)
+Goal: Find the golden key and unlock the exit door.
+
+Step 1  | move_forward | Moved forward to (2, 1).
+Step 2  | move_forward | Moved forward to (3, 1).
+Step 3  | move_forward | Moved forward to (4, 1).
+Step 4  | pick_up      | Picked up the golden key.
+Step 5  | move_forward | Moved forward to (5, 1).
+Step 6  | move_forward | Moved forward to (6, 1).
+Step 7  | turn_right   | Turned right; now facing south.
+Step 8  | move_forward | Moved forward to (6, 2).
+Step 9  | move_forward | Moved forward to (6, 3).
+Step 10 | move_forward | Moved forward to (6, 4).
+Step 11 | move_forward | Moved forward to (6, 5).
+Step 12 | use          | You unlocked the exit door. Mission complete!
+
+Result: SUCCESS in 12 steps
+Final inventory: golden key
+
+See sample_run.json for the full structured log.

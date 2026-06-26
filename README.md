@@ -1,5 +1,7 @@
 # LLM Agent in a Virtual World
 
+> **Intern Challenge submission** — an LLM agent harness for a 2D grid world where the agent perceives its surroundings, chooses actions, and completes a goal-directed task (find the key, unlock the exit).
+
 A small harness that places an LLM-driven agent inside a 2D grid world. The agent receives structured JSON observations, chooses discrete actions, and works toward a goal: **find the golden key and unlock the exit door**.
 
 ## Quick start
